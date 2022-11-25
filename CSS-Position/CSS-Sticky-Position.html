@@ -57,35 +57,47 @@ p{
 }
 .parent-div{
     display: flex;
-    position: relative;
+    flex-direction: column;
+    /* position: relative; */
+    width: 400px;
+    justify-content: center;
+    align-items: center;
     
    
 }
-/* .b3-container{
-    border: 1px dotted red;
-    padding:1px;
-} */
-.box-3{
-    position: absolute;
-    /* left: 100px; */
-    /* top:20px; */
-    top:5px;
+.bottom{
+    border: 2px double royalblue;
 }
+.box-2{
+    border: 2px dashed royalblue;
+    position: sticky;
+    top:10px;  
+}
+
+
+
+
 </style>
 <body>
+    
     <div class="container"> 
-        <h1>Absolute Position</h1>
-        <div class="parent-div">
+        <h1>Sticky Position</h1>
+        
+        
+        
             <div class="pos ">Box-1</div>
-            <div class="pos">Box-2</div>
-            <div class="b3-container">
-                <div class="pos box-3">Box-3</div>
-            </div>
-            
+            <div class="pos box-2">Box-2</div>
+            <div class="pos box-3">Box-3</div>
             <div class="pos">Box-4</div>
             <div class="pos">Box-5</div>
+            <div class="pos">Box-6</div>
+            <div class="pos">Box-7</div>
+        
 
-        </div>
+       
+
+        
+
 
         <div class="filer-content">
             <h3>Filer Content</h3>
@@ -97,6 +109,25 @@ p{
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt maxime aliquam obcaecati distinctio omnis ratione quas ex voluptatibus, illum aperiam, ipsam eum quisquam provident facilis porro optio. Vero hic perspiciatis ab in rem dolore quos itaque debitis ipsam omnis fuga sunt fugiat, officia eum? Ab aliquid voluptates blanditiis iste nobis nam, expedita neque cupiditate quisquam culpa suscipit delectus odio unde magni asperiores, adipisci earum laudantium pariatur possimus sequi, molestias excepturi. Nostrum magnam consequatur, consectetur iste odio nesciunt recusandae, nulla nobis officia maxime dignissimos minima. Doloremque, placeat! Exercitationem labore, a harum natus illum voluptatibus dolore enim officia fugiat qui aspernatur.</p>
         </div>
 
+    </div>
+
+    <div class="bottom">
+        <div class="filer-content">
+            <h3>Filer Content</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt maxime aliquam obcaecati distinctio omnis ratione quas ex voluptatibus, illum aperiam, ipsam eum quisquam provident facilis porro optio. Vero hic perspiciatis ab in rem dolore quos itaque debitis ipsam omnis fuga sunt fugiat, officia eum? Ab aliquid voluptates blanditiis iste nobis nam, expedita neque cupiditate quisquam culpa suscipit delectus odio unde magni asperiores, adipisci earum laudantium pariatur possimus sequi, molestias excepturi. Nostrum magnam consequatur, consectetur iste odio nesciunt recusandae, nulla nobis officia maxime dignissimos minima. Doloremque, placeat! Exercitationem labore, a harum natus illum voluptatibus dolore enim officia fugiat qui aspernatur.</p>
+        </div>
+        <div class="filer-content">
+            <h3>Filer Content</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt maxime aliquam obcaecati distinctio omnis ratione quas ex voluptatibus, illum aperiam, ipsam eum quisquam provident facilis porro optio. Vero hic perspiciatis ab in rem dolore quos itaque debitis ipsam omnis fuga sunt fugiat, officia eum? Ab aliquid voluptates blanditiis iste nobis nam, expedita neque cupiditate quisquam culpa suscipit delectus odio unde magni asperiores, adipisci earum laudantium pariatur possimus sequi, molestias excepturi. Nostrum magnam consequatur, consectetur iste odio nesciunt recusandae, nulla nobis officia maxime dignissimos minima. Doloremque, placeat! Exercitationem labore, a harum natus illum voluptatibus dolore enim officia fugiat qui aspernatur.</p>
+        </div>
+        <div class="filer-content">
+            <h3>Filer Content</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt maxime aliquam obcaecati distinctio omnis ratione quas ex voluptatibus, illum aperiam, ipsam eum quisquam provident facilis porro optio. Vero hic perspiciatis ab in rem dolore quos itaque debitis ipsam omnis fuga sunt fugiat, officia eum? Ab aliquid voluptates blanditiis iste nobis nam, expedita neque cupiditate quisquam culpa suscipit delectus odio unde magni asperiores, adipisci earum laudantium pariatur possimus sequi, molestias excepturi. Nostrum magnam consequatur, consectetur iste odio nesciunt recusandae, nulla nobis officia maxime dignissimos minima. Doloremque, placeat! Exercitationem labore, a harum natus illum voluptatibus dolore enim officia fugiat qui aspernatur.</p>
+        </div>
+        <div class="filer-content">
+            <h3>Filer Content</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt maxime aliquam obcaecati distinctio omnis ratione quas ex voluptatibus, illum aperiam, ipsam eum quisquam provident facilis porro optio. Vero hic perspiciatis ab in rem dolore quos itaque debitis ipsam omnis fuga sunt fugiat, officia eum? Ab aliquid voluptates blanditiis iste nobis nam, expedita neque cupiditate quisquam culpa suscipit delectus odio unde magni asperiores, adipisci earum laudantium pariatur possimus sequi, molestias excepturi. Nostrum magnam consequatur, consectetur iste odio nesciunt recusandae, nulla nobis officia maxime dignissimos minima. Doloremque, placeat! Exercitationem labore, a harum natus illum voluptatibus dolore enim officia fugiat qui aspernatur.</p>
+        </div> 
     </div>
     
 </body>

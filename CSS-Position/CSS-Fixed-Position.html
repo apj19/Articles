@@ -61,31 +61,37 @@ p{
     
    
 }
-/* .b3-container{
-    border: 1px dotted red;
-    padding:1px;
-} */
+
 .box-3{
-    position: absolute;
-    /* left: 100px; */
-    /* top:20px; */
-    top:5px;
+    position: fixed;
+    right:10px;
+    bottom:10px;
+    border: 2px dashed royalblue;
 }
+.box-2{
+    position: fixed;
+    left:10px;
+    top:20px;
+    border: 2px dashed royalblue;
+}
+
+
 </style>
 <body>
     <div class="container"> 
-        <h1>Absolute Position</h1>
+        <h1>Fixed Position</h1>
         <div class="parent-div">
             <div class="pos ">Box-1</div>
-            <div class="pos">Box-2</div>
-            <div class="b3-container">
+            <div class="pos box-2">Box-2</div>
+            
                 <div class="pos box-3">Box-3</div>
-            </div>
+            
             
             <div class="pos">Box-4</div>
             <div class="pos">Box-5</div>
 
         </div>
+
 
         <div class="filer-content">
             <h3>Filer Content</h3>
